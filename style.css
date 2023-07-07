@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(226, 223, 218);
+}
+
 #foto-perfil {
     width: 200px;
     border-radius: 200%;
@@ -6,7 +10,20 @@
 #apresentação {
     text-align: center;
 }
+#nome {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #texto-apresentação {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#links-redes {
+    font-style: italic;
+}
+#habilidades-orgulho {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
