@@ -1,29 +1,43 @@
 body {
     background-color: rgb(226, 223, 218);
+    padding: 1%;
 }
 
-#foto-perfil {
-    width: 200px;
-    border-radius: 200%;
-}
-
-#apresentação {
+.meu-nome {
     text-align: center;
-}
-#nome {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#texto-apresentação {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+#minha-foto {
+    width: 180px;
+    border-radius: 150px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(69, 2, 100);
+ }
+
+.image-container {
+    height: 230px;
+    position: relative;
 }
 
-#links-redes {
+.descrição {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 36%;
+    right: 5%;
+}
+
+.links-redes {
     font-style: italic;
 }
 #habilidades-orgulho {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
+
+ul li:nth-child(odd) {
+    font-weight: bold;
+    color: rgb(69, 2, 100);
+}
+
