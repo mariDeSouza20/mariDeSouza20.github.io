@@ -1,6 +1,6 @@
 body {
     background-color: rgb(226, 223, 218);
-    padding: 1%;
+    padding: 10px;
 }
 
 .meu-nome {
@@ -24,8 +24,8 @@ body {
 .descrição {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    top: 36%;
-    right: 5%;
+    top: 90px;
+    left: 230px;
 }
 
 .links-redes {
